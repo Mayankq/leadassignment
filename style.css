@@ -1,0 +1,38 @@
+body {
+  align-items: center; /* Center items vertically */
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  
+  canvas {
+    border: 2px solid #333;
+    display: block;
+    margin-bottom: 20px;
+    cursor: crosshair;
+    border-radius: 10px;
+  }
+  
+  #resetButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #resetButton:hover {
+    background-color: #45a049;
+  }
+
+  .heading{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
